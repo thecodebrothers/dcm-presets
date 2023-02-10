@@ -1,0 +1,62 @@
+dart_code_metrics:
+  metrics:
+    cyclomatic-complexity: 20
+    number-of-parameters: 5
+    maximum-nesting-level: 5
+    source-lines-of-code: 40
+    lines-of-code: 50
+    maintainability-index: 30
+    number-of-methods: 15
+  rules:
+    - avoid-cascade-after-if-null
+    - avoid-collection-methods-with-unrelated-types
+    - avoid-duplicate-exports
+    - avoid-dynamic
+    - avoid-global-state
+    - avoid-missing-enum-constant-in-map
+    - avoid-nested-conditional-expressions
+    - avoid-non-ascii-symbols
+    - avoid-non-null-assertion
+    - avoid-passing-async-when-sync-expected
+    - avoid-redundant-async
+    - avoid-throw-in-catch-block
+    - avoid-top-level-members-in-tests
+    - avoid-unnecessary-conditionals
+    - avoid-unnecessary-type-assertions
+    - avoid-unnecessary-type-casts
+    - avoid-unrelated-type-assertions
+    - avoid-unused-parameters
+    - binary-expression-operand-order
+    - double-literal-format
+    - newline-before-return
+    - no-boolean-literal-compare
+    - no-empty-block
+    - no-equal-arguments
+    - no-equal-then-else
+    - no-magic-number
+    - no-object-declaration
+    - prefer-async-await
+    - prefer-correct-identifier-length
+    - prefer-correct-test-file-name
+    - prefer-correct-type-name
+    - prefer-enums-by-name
+    - prefer-first
+    - prefer-immediate-return
+    - prefer-iterable-of
+    - prefer-match-file-name
+    - prefer-moving-to-variable
+    - prefer-static-class
+    - tag-name
+    - always-remove-listener
+    - avoid-expanded-as-spacer
+    - avoid-shrink-wrap-in-lists
+    - avoid-unnecessary-setstate
+    - avoid-wrapping-in-padding
+    - check-for-equals-in-render-object-setters
+    - consistent-update-render-object
+    - prefer-correct-edge-insets-constructor
+    - use-setstate-synchronously
+    
+  anti-patterns:
+    - long-method
+    - long-parameter-list
