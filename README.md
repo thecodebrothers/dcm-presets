@@ -21,7 +21,7 @@ Take these steps to enable a preset:
    ```yaml
    dart_code_metrics:
      extends:
-       - package:tcb_dcm_presets/tcb_main.yaml
+       - package:tcb_dcm_presets/presets/tcb_main.yaml
    ```
 
 [DCM configuration](https://dartcodemetrics.dev/docs/getting-started/configuration).
