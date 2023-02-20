@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- Fix syntax error
+
 ## 1.0.3
 
 -  Exclude tests directory in avoid-passing-async-when-sync-expected rule
