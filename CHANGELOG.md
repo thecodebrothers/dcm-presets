@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5
+
+- Add exceptions to no static functions
+
 ## 1.0.4
 
 - Fix syntax error

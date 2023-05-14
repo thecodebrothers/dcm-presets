@@ -4,4 +4,4 @@ description: The Code Brothers dart code metrics presets.
 repository: https://github.com/thecodebrothers/tcb-dcm-presets
 
 environment:
-  sdk: ">=2.17.0 <3.0.0"
+  sdk: ">=2.17.0 <4.0.0"
