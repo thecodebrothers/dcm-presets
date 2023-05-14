@@ -33,7 +33,6 @@ dart_code_metrics:
     - newline-before-return
     - no-boolean-literal-compare
     - no-empty-block
-    - no-equal-arguments
     - no-equal-then-else
     - no-magic-number
     - no-object-declaration
@@ -47,7 +46,17 @@ dart_code_metrics:
     - prefer-iterable-of
     - prefer-match-file-name
     - prefer-moving-to-variable
-    - prefer-static-class
+    - prefer-static-class:
+        ignore-annotations:
+          - WidgetbookTheme
+          - InjectableInit
+          - WidgetbookUseCase
+          - WidgetbookLocales
+          - WidgetbookAppBuilder
+          - WidgetbookApp
+        ignore-private: true
+        exclude:
+          - test/**
     - tag-name
     - always-remove-listener
     - avoid-expanded-as-spacer
